@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import subprocess
 
 BRANCH = os.environ['GITHUB_REF'].split('refs/heads/')[-1]
-DOWNLOAD_URL = 'https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/{branch}/plugins/{plugin_name}/latest.zip'
+DOWNLOAD_URL = 'https://github.com/ToxicMushroom/Athavar.FFXIV.DalaRepo/raw/{branch}/plugins/{plugin_name}/latest.zip'
 
 DEFAULTS = {
     'IsHide': False,
